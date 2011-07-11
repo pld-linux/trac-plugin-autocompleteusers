@@ -56,7 +56,7 @@ if [ "$1" = "1" ]; then
 	To enable the %{plugin} plugin, add to conf/trac.ini:
 
 	[components]
-	trac%{plugin}.* = enabled
+	%{plugin}.* = enabled
 EOF
 fi
 
